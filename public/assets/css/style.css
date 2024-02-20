@@ -16445,7 +16445,7 @@ body.left_menu .mr_menu {
 }
 
 .mission {
-  padding-top: 230px;
+  padding-top: 160px;
 }
 
 .mission_top_part {
@@ -21500,8 +21500,108 @@ body.mr_menu_active .mr_menu {
   right:0;
   left:inherit!important
 }
+.mr_menu footer.footer,.mr_menu .footer .footer_inner .footer_social .social_list li a{
+  background:transparent!important
+}
+.img-h100{
+  height: 100vh;
+  object-fit: cover;
+}
+* {
+    font-family: 'Adam Medium'!important;
+}
+.mission_content p,.accordion-body,.accordion-button:not(.collapsed){
+  color:#8a8d8c!important
+}
+.accordion-button,.accordion-item,.accordion{
+  background: none!important;
+  border:0!important;
+}
+.accordion-button{
+  border-bottom:1px solid #4b4d47!important;
+  outline:0!important;
+  box-shadow: none!important;
+  }
+  .accordion-button span{  color:#FFFFFF!important;
+    font-size:26px
+}
+.accordion-button .people span+span{
+  padding-right:20px;
+  font-size:20px
+}
+.accordion-button .people{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: url(../img/accordion-up.svg);
+  transform: var(--mrittik-accordion-btn-icon-transform);
+}
+.accordion-button::after{
+  background-image: url(../img/accordion-down.svg);
+}
+.accordion-body p{
+  font-size:22px
+}
+.accordion-button{color: #FFFFFF!important;font-size: 26px!important;}
+.careers .accordion-button span{
+  width:25%;
+  text-align: right;
+}
+.careers .accordion-button span:first-child,.careerstags span:first-child{
+  text-align: left;
 
+}
+.careerstags {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 30px;
+}
+.careerstags span:first-child,.careers .accordion-button span:first-child{
+  width:40%;
+    text-align: left;
+}
+.careerstags span:last-child,.careers .accordion-button span:last-child{
+  width:20%;
+    text-align: right;
+}
+.careerstags span:last-child{
+  padding-right:40px
+}
+.careers .accordion-button span{
+  font-size:26px;
+    width:20%;
+    text-align: left;
+}
+.careerstags span{
+  color:rgb(117, 143, 131)!important;
+    font-size:26px;
+    font-weight: bold;
+    width:20%;
+    text-align: left;
+}
+.careers .txtblock,.careers .txtblock p{
+  font-size:16px
+}
+@media(max-width:991px){
+  .careerstags {display:none}
+}
 @media(max-width:1024px){
+
+  .careers .accordion-button span{
+    width:100%;
+    text-align: right;
+  }
+  .accordion-button .people{
+    display: block;
+  }
+  .careers .accordion-button span:first-child{
+    text-align: left;
+  }
   .project-button{
       right: 30px!important;
     top: 80%;}

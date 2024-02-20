@@ -34,7 +34,7 @@
                                     <div class="slide_content_inner">
                                         <h4><a href="{{route('projectdetails')}}" class="text-white text-uppercase">Eclipse - THE ETERNAL LUXURIOUS LIVING EXPERIENCE</a></h4>
                                         <div class="details_link">
-                                        <a href="about.html">
+                                        <a href="{{route('about')}}">
                                                 <span class="link_text">ARA</span>
                                             </a>
                                         </div>
@@ -55,7 +55,7 @@
                                     <div class="slide_content_inner">
                                         <h4><a href="{{route('projectdetails')}}" class="text-white text-uppercase">J7 Emporium - THE KING-SIZE ARCHITECTURAL MASTERPIECE</a></h4>  
                                         <div class="details_link">
-                                           <a href="about.html">
+                                        <a href="{{route('about')}}">
                                                 <span class="link_text">ARA</span>
                                             </a>
                                         </div>
@@ -75,7 +75,7 @@
                                     <div class="slide_content_inner">
                                         <h4><a href="{{route('projectdetails')}}" class="text-white text-uppercase">ICON - OF Elite</a></h4>
                                         <div class="details_link">
-                                        <a href="about.html">
+                                        <a href="{{route('about')}}">
                                                 <span class="link_text">ARA</span>
                                             </a>
                                         </div>

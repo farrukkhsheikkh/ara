@@ -20,3 +20,4 @@ Route::get('/contact-ara', [HomeController::class, 'contact'])->name('contact');
 Route::get('/about-ara', [HomeController::class, 'about'])->name('about');
 Route::get('/project-details', [HomeController::class, 'projectDetails'])->name('projectdetails');
 Route::get('/ara-services', [HomeController::class, 'services'])->name('services');
+Route::get('/careers-ara', [HomeController::class, 'careers'])->name('careers');

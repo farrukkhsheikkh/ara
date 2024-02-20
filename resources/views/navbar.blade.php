@@ -100,6 +100,7 @@
                             </li>
                             
                             <li class="menu-item"><a href="{{route('contact')}}">Contact</a></li>
+                            <li class="menu-item"><a href="{{route('careers')}}">Careers</a></li>
                             <li class="menu-item menu-item-has-children"><a href="#">Blog</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item"><a href="blog.html">Blog</a></li>
@@ -246,6 +247,7 @@
                                 <li><a href="#">Profile</a></li>
                                 <li><a href="#">About</a></li>
                                 <li><a href="#">Services</a></li>
+                                <li><a href="#">Careers</a></li>
                                 <li><a href="#">Projects</a></li>
                                 </ul>
                         </div>
