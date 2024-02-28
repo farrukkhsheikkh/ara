@@ -12560,6 +12560,10 @@ body.left_menu .mr_menu {
   position: relative;
 }
 
+.theme_slider_3 .swiper-slide{
+  height: 100vh !important;
+} 
+
 .theme_slider_3 .swiper-slide .slider {
   background-repeat: repeat;
   background-size: cover;
@@ -12570,8 +12574,8 @@ body.left_menu .mr_menu {
   display: flex;
   justify-content: start;
   align-items: center;
-  padding-top: calc(3rem + 20vw); /* changed from 18 to 20 */
-  padding-bottom: calc(3.625rem + 26.42857vw); /* changed from 24 to 26 */
+  padding-top: calc(3rem + 35vw); /* changed from 18 to 20 */
+  /* padding-bottom: calc(3.625rem + 26.42857vw);  changed from 24 to 26 */
 }
 
 @media (min-width: 1400px) {
@@ -12583,7 +12587,7 @@ body.left_menu .mr_menu {
 @media (min-width: 1400px) {
   .theme_slider_3 .swiper-slide .slider {
     /* padding-bottom: 25rem; */
-    padding-bottom: 18rem;
+    padding-bottom: 0;
   }
 }
 
@@ -12625,17 +12629,17 @@ body.left_menu .mr_menu {
   transition: all 0.5s ease-in-out;
 }
 
-/*Font changed by Emad*/
+/*Font changed by Amazaie*/
 .theme_slider_3 .swiper-slide .slider .slide_content .slide_content_wrapper .slide_content_inner h4, .theme_slider_3 .swiper-slide .slider .slide_content .slide_content_wrapper .slide_content_inner .h4 {
   position: relative;
-  font-family: 'Adam Medium', sans-serif;
+  font-family: 'Adam Light', sans-serif;
   /* Original Font Size */
   /* font-size: calc(1.78125rem + 5.46429vw);
   line-height: calc(1.7rem + 4.62857vw); */
   font-size: calc(1rem + .8vw);
   line-height: calc(1.4rem + 0.8vw);
-  font-weight: 700;
-  letter-spacing: 2px;
+  font-weight: 500;
+  /* letter-spacing: 2px; */
   margin-bottom: calc(1.28125rem + 0.32143vw);
   opacity: 0;
   visibility: hidden;
@@ -16445,7 +16449,11 @@ body.left_menu .mr_menu {
 }
 
 .mission {
-  padding-top: 160px;
+  padding-top: 40px;
+}
+
+.careers{
+  padding-top: 40px;
 }
 
 .mission_top_part {
@@ -19154,7 +19162,8 @@ body.left_menu .mr_menu {
 
 .page_header .page_header_inner {
   position: relative;
-  background-image: url(../img/4.1.jpg);
+  /* background-image: url(../img/4.1.jpg); */
+  background: rgba(var(--mrittik-body-color-rgb), 0);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -19166,7 +19175,7 @@ body.left_menu .mr_menu {
   top: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
 }
 
 .page_header .page_header_inner .page_header_content {
@@ -21284,9 +21293,10 @@ body.bg-dark.bg-white .under-construction-page .under-construction-content .sear
 
 .slider .container.opndtl{opacity: 1; visibility: visible; transform: translate(30px, 0);}
 .award_banner{position: absolute;
-left:0;bottom:15%}
+left:0;bottom:0}
 .award_banner img{
   max-width: 100px;
+  max-height: 300px;
 }
 .slide_content .slide_content_wrapper{
   padding-left:150px
@@ -21299,7 +21309,7 @@ left:0;bottom:15%}
 .award_banner:after {
   content: '';
     width: 1px;
-    height: 200px;
+    height: 300px;
     border-top: 0px solid #9b817b;
     position: absolute;
     right: -40px;
@@ -21333,7 +21343,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 .opndtl .slide_content_inner a{pointer-events: all;}
 
 
-.swiper-slide{height:100vh}
+/* .swiper-slide{
+  height:100vh;
+ 
+} */
+
 .spacing-r{
   padding-right:.5rem;
 }
@@ -21476,9 +21490,6 @@ display:none;
   object-fit: cover;
   overflow: hidden;
 }
-.swiper-navigation .swiper-button-next, .swiper-navigation .swiper-button-prev{
-  top:80%!important
-}
 .one-time .swiper-slide{
   height:100%!important
 }
@@ -21507,6 +21518,11 @@ body.mr_menu_active .mr_menu {
   height: 100vh;
   object-fit: cover;
 }
+.img-500{
+  height: 500px;
+  object-fit:cover;
+}
+
 * {
     font-family: 'Adam Medium'!important;
 }
@@ -21541,6 +21557,8 @@ body.mr_menu_active .mr_menu {
 }
 .accordion-button::after{
   background-image: url(../img/accordion-down.svg);
+  position: absolute;
+    right: 0;
 }
 .accordion-body p{
   font-size:22px
@@ -21629,4 +21647,16 @@ body.mr_menu_active .mr_menu {
   width: 45%;
 }
 }
+.partner_flex .swiper-pagination,.partner_flex .swiper-scrollbar, .partner_flex  .swiper-button-prev, .partner_flex  .swiper-button-next{
+  display: none!important;
+}
+.projectdetailsbox .swiper-slide{display:flex; align-items:flex-start;justify-content: space-between; margin:0 3px}
+.projectdetailsbox img{min-height: 600px; object-fit: cover;}
+.projectdetailsbox .swiper-navigation .swiper-button-next, .projectdetailsbox .swiper-navigation .swiper-button-prev{
+  top:0%!important
+}
+.project-details .gallery_slider .swiper_gallery .swiper-navigation .swiper-button-prev, .project-details .gallery_slider .swiper_gallery .swiper-navigation .swiper-rtl .swiper-button-next {
+  right: 50px;
+  left: auto;
+  top: 2px !important;
 /*# sourceMappingURL=style.css.map */

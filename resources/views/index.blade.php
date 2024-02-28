@@ -225,29 +225,30 @@
     <section class="contact_us pt-0 pb-5">
         <div class="container">
             <!-- Clients Logo -->
+
             <div class="partner_flex">
-            <div class="partner_content" data-aos="fade-up" data-aos-duration="500">
-                <img src="/assets/images/partner/Apex Mall.png" alt="img">
-                <img src="/assets/images/partner/Apex mall w.png"  class="text-dark" alt="img">
-            </div>
-            <div class="partner_content" data-aos="fade-up" data-aos-duration="700">
-                <img src="/assets/images/partner/Eclipse.png" alt="img">
-                <img src="/assets/images/partner/Eclipse w.png" alt="img">
-            </div>
-            <div class="partner_content" data-aos="fade-up" data-aos-duration="900">
-                <img src="/assets/images/partner/Emproium.png" alt="img">
-                <img src="/assets/images/partner/Emporium w.png" alt="img">
-            </div>
-            <div class="partner_content" data-aos="fade-up" data-aos-duration="1100">
-                <img src="/assets/images/partner/Epic Tower.png" alt="img">
-                <img src="/assets/images/partner/Epic Tower w.png" alt="img">
-            </div>
-            <div class="partner_content" data-aos="fade-up" data-aos-duration="1300">
-                <img src="/assets/images/partner/Galleria.png" alt="img">
-                <img src="/assets/images/partner/Galleria w.png" alt="img">
-            </div>
-        </div>
-        </div>
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="/assets/images/partner/Apex Mall.png" alt="img"></div>
+    <div class="swiper-slide"><img src="/assets/images/partner/Eclipse.png" alt="img"></div>
+    <div class="swiper-slide"><img src="/assets/images/partner/Emproium.png" alt="img"></div>
+    <div class="swiper-slide"> <img src="/assets/images/partner/Epic Tower.png" alt="img"></div>
+    <div class="swiper-slide"><img src="/assets/images/partner/Galleria.png" alt="img"></div>
+    
+    
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+             </div>
     </section>
 
 </main>

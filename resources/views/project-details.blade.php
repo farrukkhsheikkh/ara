@@ -71,25 +71,76 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-7 col-md-7">
+                            <div class="col-lg-10 col-md-10 projectdetailsbox">
                                 <div class="gallery_slider">
                                     <div class="swiper swiper_gallery">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
-                                                <div class="gallery-image">
+                                                <div class="gallery-image col-md-8">
                                                     <img src="../assets/img/portfolio/portfolio1.png" alt="img">
                                                 </div>
-                                            </div>
-
-                                            <div class="swiper-slide">
-                                                <div class="gallery-image">
-                                                    <img src="../assets/img/portfolio/portfolio2.png" alt="img">
+                                                <div class="project-details_inner col-lg-4 px-5">
+                                                    <div class="post_content">
+                
+                                                        <h6 class="widget-title">
+                                                            Project Details
+                                                            <span class="title-line"></span>
+                                                        </h6>
+                                                        <div class="fulltext">
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu
+                                                                faucibus libero, a imperdiet dui. Interdum et malesuada fames ac ante
+                                                                ipsum primis in faucibus. Aenean arcu sem.
+                                                            </p>
+                
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="swiper-slide">
-                                                <div class="gallery-image">
+                                                <div class="gallery-image col-md-8">
+                                                    <img src="../assets/img/portfolio/portfolio2.png" alt="img">
+                                                </div>
+                                                <div class="project-details_inner col-lg-4 px-5">
+                                                    <div class="post_content">
+                
+                                                        <h6 class="widget-title">
+                                                            Project Details
+                                                            <span class="title-line"></span>
+                                                        </h6>
+                                                        <div class="fulltext">
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu
+                                                                faucibus libero, a imperdiet dui. Interdum et malesuada fames ac ante
+                                                                ipsum primis in faucibus. Aenean arcu sem.
+                                                            </p>
+                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="swiper-slide">
+                                                <div class="gallery-image col-md-8">
                                                     <img src="../assets/img/portfolio/portfolio3.png" alt="img">
+                                                </div>
+                                                <div class="project-details_inner col-lg-4 px-5">
+                                                    <div class="post_content">
+                
+                                                        <h6 class="widget-title">
+                                                            Project Details
+                                                            <span class="title-line"></span>
+                                                        </h6>
+                                                        <div class="fulltext">
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu
+                                                                faucibus libero, a imperdiet dui. Interdum et malesuada fames ac ante
+                                                                ipsum primis in faucibus. Aenean arcu sem.
+                                                            </p>
+                
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -109,29 +160,7 @@
 
 
 
-
-
-                            <div class="col-md-3 col-lg-3">
-                                <div class="project-details_inner">
-                                    <div class="post_content">
-
-                                        <h6 class="widget-title">
-                                            Project Details
-                                            <span class="title-line"></span>
-                                        </h6>
-                                        <div class="fulltext">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu
-                                                faucibus libero, a imperdiet dui. Interdum et malesuada fames ac ante
-                                                ipsum primis in faucibus. Aenean arcu sem.
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
+ 
 
                         </div>
                     </div>

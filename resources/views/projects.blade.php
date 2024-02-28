@@ -4,8 +4,8 @@
     <div class="page_header">
         <div class="page_header_inner">
             <div class="container">
-                <div class="page_header_content d-flex align-items-center justify-content-between">
-                    <h2 class="heading">Projects</h2>
+                <div class="page_header_content d-flex align-items-center justify-content-end">
+                    <!-- <h2 class="heading">Projects</h2> -->
                     <ul class="breadcrumb d-flex align-items-center">
                         <li><a href="index.html">Home</a></li>
                         <li class="active">Projects</li>
@@ -111,7 +111,8 @@
                             <div class="works-info">
                                 <div class="label-text">
                                     <h6><a href="#">Religious</a></h6>
-                                    <h5><a href="{{route('projectdetails')}}">Peshawar Mosque"><span class="link_text">View Details</span> <span class="link_icon"><span class="line"></span> <span class="circle"></span><span class="dot"></span></span></a></div>
+                                    <h5><a href="{{route('projectdetails')}}">Peshawar Mosque</a></h5>
+                                    <div class="details_link"><a href="{{route('projectdetails')}}"><span class="link_text">View Details</span> <span class="link_icon"><span class="line"></span> <span class="circle"></span><span class="dot"></span></span></a></div>
                                 </div>
                             </div>
                         </div>

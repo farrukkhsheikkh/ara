@@ -421,21 +421,8 @@
             centeredSlides: true,
             speed: 1400,
             spaceBetween: 0,
-            parallax: true,
+            parallax: false,
             autHeight: true,
-            effect: "creative",
-            creativeEffect: {
-                prev: {
-                    shadow: true,
-                    translate: ["-20%", 0, -1],
-                },
-                next: {
-                    translate: ["100%", 0, 0],
-                },
-            },
-            controller: {
-                inverse: true,
-            },
             slideToClickedSlide: true,
             lazyLoading: true,
             loop: false,
@@ -584,6 +571,52 @@
             }
         });        
 
+ 
+
+const swiperPartner = new Swiper('.partner_flex', {
+    slidesPerView: '5',
+    speed: 1000,
+    autoplay: true,
+    centeredSlides: true,
+    controller: false,
+    navigationHide:true,
+            
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-partner-next',
+        prevEl: '.swiper-partner-prev',
+        disabledClass: 'disabled_swiper_button'
+      },
+
+      breakpoints: {
+        1200: {
+          slidesPerView: 4,
+          loopedSlides: 4,
+          spaceBetween: 10
+        },
+        1024: {
+          slidesPerView: 3,
+          loopedSlides: 3,
+          spaceBetween: 10
+        },
+        768: {
+          slidesPerView: 2,
+          loopedSlides: 2,
+          spaceBetween: 10
+        },
+        675: {
+          slidesPerView: 1,
+          loopedSlides: 1,
+          spaceBetween: 20,
+        }
+      },
+
+
+    
+  });
+
         
 
 
@@ -655,7 +688,12 @@ window.addEventListener("scroll", () => {
 });
 
 
+
+
+
 $('.project-button').on('click', function(){
     $(this, 'i').toggleClass('bi-minus-circle');
     $('.swiper-slide-active .slider .container').toggleClass('opndtl');
-}) 
+}); 
+
+

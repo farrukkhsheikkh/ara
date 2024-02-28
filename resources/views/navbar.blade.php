@@ -244,12 +244,12 @@
                         <h5>Quick Links</h5>
                         <div class="info_body">
                             <ul class="qlinklist">
-                                <li><a href="#">Profile</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="#">Projects</a></li>
-                                </ul>
+                            <li class="menu-item"><a href="{{route('about')}}">Profile</a></li>
+                            <li class="menu-item"><a href="{{route('projects')}}">Projects</a></li>
+                            <li class="menu-item"><a href="{{route('services')}}">Services</a></li>
+                            <li class="menu-item"><a href="{{route('about')}}">About</a></li>
+                                <li class="menu-item"><a href="{{route('careers')}}">Careers</a></li>
+                                 </ul>
                         </div>
                     </div>
                 </div>

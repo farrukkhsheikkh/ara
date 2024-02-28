@@ -3,9 +3,21 @@
     <!-- Main Wrapper-->
     <main class="wrapper">
         <!-- Scroll Progress -->
-        
+        <div class="page_header">
+        <div class="page_header_inner">
+            <div class="container">
+                <div class="page_header_content d-flex align-items-center justify-content-end">
+                    <!-- <h2 class="heading">Projects</h2> -->
+                    <ul class="breadcrumb d-flex align-items-center">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">Careers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>        
+    </div>
         <!-- Our Mission -->
-        <section class="mission">
+        <section class="careers">
             <div class="container p-0">
                 <div class="row my-4">
                 <div class="col-lg-5 pe-lg-4">
@@ -21,7 +33,7 @@
                 </div>
             </div>
                 <div class="container-fluid p-0">
-                     <img src="../assets/img/portfolio/packery/1.1.jpg" alt="" width="100%" class="img-h100">
+                     <img src="../assets/img/portfolio/packery/1.1.jpg" alt="" width="100%" class="img-500">
                 </div>
                
             </div>

@@ -3,11 +3,23 @@
     <!-- Main Wrapper-->
     <main class="wrapper">
         <!-- Scroll Progress -->
-        
+        <div class="page_header">
+        <div class="page_header_inner">
+            <div class="container">
+                <div class="page_header_content d-flex align-items-center justify-content-end">
+                    <!-- <h2 class="heading">Projects</h2> -->
+                    <ul class="breadcrumb d-flex align-items-center">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">About</li>
+                    </ul>
+                </div>
+            </div>
+        </div>        
+    </div>
         <!-- Our Mission -->
         <section class="mission">
             <div class="container-fluid p-0">         
-                     <img src="../assets/img/portfolio/packery/1.1.jpg" alt="" width="100%" class="img-h100">
+                     <img src="../assets/img/portfolio/packery/1.1.jpg" alt="" width="100%" class="img-500">
                 </div>
 
                 <div class="mission_bottom_part mt-5">
@@ -81,7 +93,7 @@
                                 </button>
                               </h2>
                               <div id="collapseTwo-1" class="accordion-collapse collapse" disabled-data-bs-parent="#accordionAbout-1">
-                                <div class="accordion-body">
+                                <div class="accordion-body row">
                                     <div class="imgblock col-md-4">
                                         <img src="https://thumbs.dreamstime.com/b/profile-picture-caucasian-male-employee-posing-office-happy-young-worker-look-camera-workplace-headshot-portrait-smiling-190186649.jpg" alt="Ahmed Riaz">
                                         </div>
@@ -103,7 +115,7 @@
                                 </button>
                               </h2>
                               <div id="collapseThree-1" class="accordion-collapse collapse" disabled-data-bs-parent="#accordionAbout-1">
-                                <div class="accordion-body">
+                                <div class="accordion-body row">
                                     <div class="imgblock col-md-4">
                                         <img src="https://thumbs.dreamstime.com/b/profile-picture-caucasian-male-employee-posing-office-happy-young-worker-look-camera-workplace-headshot-portrait-smiling-190186649.jpg" alt="Ahmed Riaz">
                                         </div>
@@ -126,7 +138,7 @@
                                   </button>
                                 </h2>
                                 <div id="collapseFour-1" class="accordion-collapse collapse" disabled-data-bs-parent="#accordionAbout-1">
-                                  <div class="accordion-body">
+                                  <div class="accordion-body row">
                                       <div class="imgblock col-md-4">
                                           <img src="https://thumbs.dreamstime.com/b/profile-picture-caucasian-male-employee-posing-office-happy-young-worker-look-camera-workplace-headshot-portrait-smiling-190186649.jpg" alt="Ahmed Riaz">
                                           </div>

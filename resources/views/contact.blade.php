@@ -4,8 +4,8 @@
     <div class="page_header">
         <div class="page_header_inner">
             <div class="container">
-                <div class="page_header_content d-flex align-items-center justify-content-between">
-                    <h2 class="heading">Contact</h2>
+                <div class="page_header_content d-flex align-items-center justify-content-end">
+                    <!-- <h2 class="heading">Contact</h2> -->
                     <ul class="breadcrumb d-flex align-items-center">
                         <li><a href="index.html">Home</a></li>
                         <li class="active">Contact</li>

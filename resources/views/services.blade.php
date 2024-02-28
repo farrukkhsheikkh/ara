@@ -1,11 +1,15 @@
 @extends('navbar')
 @section('content')
 <!-- Page Header -->
-    <div class="page_header in-service">
+<div class="page_header">
         <div class="page_header_inner">
             <div class="container">
-                <div class="page_header_content d-flex align-items-center justify-content-between">
-                    <h2 class="heading">Our Services</h2>
+                <div class="page_header_content d-flex align-items-center justify-content-end">
+                    <!-- <h2 class="heading">Projects</h2> -->
+                    <ul class="breadcrumb d-flex align-items-center">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">Services</li>
+                    </ul>
                 </div>
             </div>
         </div>        
